@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY WEBRTC ADMIN</title>
+    <link rel="icon" href="data:,">
+  <script type="module" crossorigin src="/assets/index-EzlJ8d-K.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-vYDttddS.css">
+</head>
+<body>
+    <div id="spatDiv"></div>
+    <div id="buttons">
+        <div id="techs">
+        <button id="btn_start" style="background: green">Start Admin</button>
+        <button id="btn_reload" style="background: red">ReloadTels</button>
+        <button id="btn_stopAll" style="background: white">Clean</button>
+        <button id="btn_stopco2" style="background: white">Disco</button>
+        <button id="btn_stopco" style="background: white">BlocTels</button>
+        <button id="btn_showG" style="background: white">ShowG</button>
+        <!-- <button id="test" style="background: white">TEST</button> -->
+    </div>
+        <!-- <button id="btn_midi">Midi</button> -->
+        <div id="scenes">
+            <button id="btn_tech" style="background: yellow">INFOS</button>
+            <button id="btn_scene1" style="background: yellow">S1</button>
+            <button id="btn_scene20" style="background: yellow">S20</button>
+            <button id="btn_scene21" style="background: yellow">S21</button>
+            <!-- <button id="btn_scene21_random" style="background: yellow">Scene 21 - Rand</button> -->
+            <button id="btn_scene3" style="background: yellow">S3</button>
+            <button id="btn_scene6" style="background: yellow">SN</button>
+            <button id="btn_sceneTHEEND" style="background: yellow">FIN</button>
+        </div>
+        <button id="btn_lauch" style="background: rgb(255, 0, 251)">Lance la scene</button>
+    </div>
+    <!-- <div>
+        <input type="range" id="slider_midi" name="MidiMess" min="0" max="255" />
+    </div> -->
+    <div id="stats"></div>
+    <div id="S_global" class="global">
+        <input id="S1_param1" type="range" min="20" max="120" value="80" step="1">
+        <label for="S1_param1">FREQ CUT</label>
+    </div>
+    <input id="resizeTel" type="range" min="0" max="100" value="20" step="1">
+    <!-- <div id="key_data"></div> -->
+    <div id="adminVideos" style="display: none;"></div> 
+    <div id="medias"></div>
+    <div id="device_info">
+		<div id="inputs"></div>
+		<div id="outputs"></div>
+	</div>
+</body>
+</html>
